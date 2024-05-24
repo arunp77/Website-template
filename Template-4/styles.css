@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+.navbar {
+    background: #096296;
+    padding: 1rem 0;
+    text-align: center;
+}
+.navbar ul {
+    color: #1acfc0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.navbar li {
+    background: #096296;
+    display: inline;
+    margin: 0 10px;
+    color: #f8efef;
+}
+.navbar a {
+    text-decoration: none;
+    color: #ebe2e2;
+}
+.navbar a.active {
+    position: relative;
+}
+
+.navbar a.active::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px; /* Adjust thickness as needed */
+    background-color: #fff; /* Change to desired color */
+    position: absolute;
+    bottom: -2px; /* Adjust distance from text */
+    left: 0;
+}
+.navbar a.active {
+    border: 2px solid #fff; /* Change to desired border color and thickness */
+    padding: 0.5rem 1rem; /* Adjust padding as needed */
+    border-radius: 5px; /* Adjust border radius as needed */
+}
+header {
+    background: #333;
+    color: #fff;
+    padding: 4rem 0 1rem;
+    text-align: center;
+    position: relative;
+}
+header img {
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 2rem 0;
+}
+.section {
+    background: #fff;
+    margin: 1rem 0;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1, h2, h3 {
+    margin-bottom: 1rem;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+ul li {
+    background: #e4e4e4;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+.contact {
+    text-align: center;
+}
+.contact a {
+    text-decoration: none;
+    color: #333;
+    background: #e4e4e4;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0.5rem;
+}
+.profile-img {
+    display: block;
+    max-width: 150px;
+    margin: 2rem auto;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
